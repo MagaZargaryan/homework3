@@ -40,7 +40,7 @@ const longestString=function(str1,str2,str3){
 	}else if(str3.length>str1.length&&str3.length>str2.length){
 		return str3;
 	}
-};
+}
 	
 
 
