@@ -5,10 +5,12 @@ return (a+b+c);
 };
 
 
+
 //Function takes no arguments and returns smth.
 const emptyFunction= function(){
 return 15;
 };
+
 
 
 //Function takes arguments, does something but does not return anything
@@ -17,10 +19,9 @@ console.log(m+z-h);
 }; 
 
 
-
 //Function called fullName with arguments firstName and lastName that returns the full name
 const firstName=function(){
-return 'Margarita';
+return 'Margrita';
 };
 const lastName=function(){
 	return'Zargaryan';
@@ -28,7 +29,6 @@ const lastName=function(){
 	const fullName=function(firstName,lastName){
 	return firstName + ' ' + lastName;
 };
-
 
 
 //Function that takes three strings and returns the longest strings
@@ -54,7 +54,6 @@ const compare=function(number1,number2){
 		return -1;
 	}
 	};
-	
 	
 	
 //Function that takes 3 inputs and returns the first the first truethy value
